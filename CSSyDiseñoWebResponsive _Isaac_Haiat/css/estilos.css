@@ -1,12 +1,17 @@
 body {
 	margin: 20px;
-	background-color: black;
-	color: white;
-	font-family: Raleway;
+	background-color:  #02010a;
+	color: black;
+	font-family: Dancing Script;
 }
 
 header h1{
-	text-align: center;
+	text-align: left;
+	color: white;
+	text-shadow: 2px color: #02010a;
+}
+header{
+	color: #5b7989;
 }
 
 #contenido {
