@@ -1,0 +1,111 @@
+body {
+		margin: 0px;
+		background-color:  #02010a;
+		font-family: Dancing Script;
+		font-weight: bold;
+	}
+.contenido{
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	/*border: 2px solid blue;*/
+}
+		.header{
+			background:  #5b7989;
+			display:flex;
+			flex-flow: row nowrap;
+			height: auto;
+			border-radius: 10px 10px 0 0;
+			align-items: center;
+			/*border: 2px solid blue;*/
+		}
+				.texto {
+						display: flex;
+						/*border: 2px solid blue;*/
+						height: 100px;
+						align-items: center;
+						}
+							h1 {
+							color: white;
+							text-shadow: 1px 2px #02010a;
+							/*line-height: 50px;*/
+							/*border: 2px solid blue;*/
+							}
+
+				.nav{
+						flex: 1 1 auto;
+						/*border: 2px solid blue;*/
+						height: 100px;
+					}
+
+		.central{
+			background: #82c3a6;
+			display: flex;
+			/*border: 2px solid blue;*/
+			height: auto;
+			justify-content: center;
+			}
+				.foto1 img{
+					align-items: center;
+					width: 40%;
+					/*border: 2px solid blue;*/
+					height: auto;
+					}
+
+		.secundarias{
+			background: #d5c75f ;
+			display: flex;
+			flex-flow: row nowrap;
+		/*border: 2px solid blue;*/
+			height: auto;
+			justify-content: space-between;
+		}
+
+			.fotoizq img{
+				align-items: center;
+				width: 50%;
+				/*border: 2px solid blue;*/
+				height: auto;
+			}
+
+			.fotoder img{
+				align-items: center;
+				width: 50%;
+				/*border: 2px solid blue;*/
+				height: auto;
+			}
+
+		.footer{
+			background: #C6d5c5;
+			display: flex;
+			flex-flow: column nowrap;
+			/*border: 2px solid blue;*/
+			height: auto;
+			border-radius: 0 0 10px 10px;
+			}
+
+			.pie{
+				display: flex;
+				flex-flow: row nowrap;
+				/*border: 2px solid blue;*/
+				height: 100px;
+			}
+			.contacto{
+					flex: 1 1 auto;
+					border: 2px solid blue;
+			}
+			.termino{
+					flex: 1 1 auto;
+					border: 2px solid blue;
+			}
+			.redes{
+					flex: 1 1 auto;
+					border: 2px solid blue;
+			}
+			.derechos{
+					flex: 1 1 auto;
+					border: 2px solid blue;
+			}
